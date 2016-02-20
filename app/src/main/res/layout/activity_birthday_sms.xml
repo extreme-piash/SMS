@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#8258FA"
+    tools:context="com.example.piash.sms.BirthdaySMS">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbarStyle="outsideInset"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Today is the day when the gods
+decided to send an angel for me
+in my life. straight from the heavens.
+Happy Birthday to my sweet angel!"
+                android:id="@+id/button1"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="U r the one person that i don’t have to explain
+My craziness to
+and
+the one person whose craziness
+i can’t explain.
+And that’s great……….
+U R the Sweetest Birthday i have e"
+                android:id="@+id/button2"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Millions of Greetings;
+Thousands of Colours;
+Hundreds of Wishes;
+Hundreds of Cakes;
+And lots of Smiles;
+Thats what I ask God to give you through out your life!
+H@ppy Birthd@y!"
+                android:id="@+id/button3"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="You are my life i have been searching by whole life
+to find a best friend n then i met u and then u know what
+I just stopped searching as i met u
+I trust U
+I believe in U
+I adore you
+I am thankful to u
+I am always here 4 u
+Happy Birthday My Lovely Sister"
+                android:id="@+id/button4"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="May everything happy and everything bright.
+Be yours on your birthday from morning till night.
+And then through the year May the same thing hold true
+So that each day is filled with life’s best thing 4 U.
+Happy Birthday"
+                android:id="@+id/button5"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Flying papers,
+multi colours of balloon,
+delicated blossom,
+fantastic people,
+love and laughter.
+What it describes?
+HAPPY BIRTHDAY DEAR"
+                android:id="@+id/button6"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="From morning till night,
+May your birthday be bright.
+Hope lovely surprise are coming you way
+To make your Birthday a wonderful day.
+Happy Birthday"
+                android:id="@+id/button7"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Happy Birthday to a person
+that is charming, talented
+and witty and reminds me a
+lot of myself."
+                android:id="@+id/button8"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="God stay with you this day
+and give you peace of mind. May
+He give you a happy heart. and
+may you experience His love all
+the day. Have a Blessed day.
+Happy Birthday."
+                android:id="@+id/button9"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="I am glad I have another chance
+to send more love you way as you
+deserve the sweetest things to
+nice up you day on your birthday.
+I wish you a very Happy Birthday"
+                android:id="@+id/button10"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#8258FA"
+    tools:context="com.example.piash.sms.ChrismasSMS">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbarStyle="outsideInset"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="I am dreaming of white Christmas!
+With every Christmas card I write..
+May your days be merry and bright,,
+And may all your Christmases be white..
+Happy Merry Christmas!"
+                android:id="@+id/button1"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="The journey of life is with many twists and turns.
+But with faith and courage, no obstacle can stop you
+from reaching your goals.
+Keep faith, peace and kindness in your heart,
+and you shall always shine.
+Wish you a very Merry Christmas."
+                android:id="@+id/button2"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Don’t be surprised if a BIG
+Fat red man comes down your
+Chimney and puts you in a black sack.
+I told Santa I want you for Christmas."
+                android:id="@+id/button3"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Christmas is mostly truly Christ-
+mas when we celebrate it by giving the
+light of love to thise who need it most.
+Merry Christmas"
+                android:id="@+id/button4"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Christmas is cancelled!
+I told Santa you were good this
+year and he died laughing."
+                android:id="@+id/button5"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Wishing that this year Santa Delivers you
+Fun, Laughter and Happiness That stays with
+you forever. Hope this Christmas Season is
+Filled with all your favorite things.
+Merry Christmas"
+                android:id="@+id/button6"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Christmas only comes once a year.
+The love that I have for you comes
+only once in a Lifetime.
+Happy Merry Christmas"
+                android:id="@+id/button7"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Our Family wishes you and your, a beautiful holiday season
+filled with the warmth of friends and loveones, and with
+the promise of a happy Merry Christmas.
+This Holiday it is our joy to share with you
+the most precious of presents around our Christmas tree!"
+                android:id="@+id/button8"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="When you are lonely, I wish you love.
+When you are down, I wish you joy.
+When you are troubled, I wish you peace.
+When things look empty, I wish you hope.
+May this Christmas bring you all the love
+and luck in the world. Merry Christmas"
+                android:id="@+id/button9"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Christmas is the Splendid Season which Engages
+The World in the Conspiracy of Love.
+Christmas is a time to Rejoice and Be Happy.
+So Enjouy your Day Dear Friend"
+                android:id="@+id/button10"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

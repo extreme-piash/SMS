@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#8258FA"
+    tools:context="com.example.piash.sms.BestWishes">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbarStyle="outsideInset"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Wishing you all the great things in life,
+hope this day will bring you an extra share
+of all that makes you happiest.
+Happy Birthday lovely Jan"
+                android:id="@+id/button1"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="I am sorry that I am late.
+I promise I will make it up to you.
+Please accept my apologies and sincere
+wishes on your special day. I wish, you
+have a year filled with love."
+                android:id="@+id/button2"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="May God grant all your wishes and dreams.
+May this birthday be the start of your news,
+better life.
+Happy Birthday to You"
+                android:id="@+id/button3"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="May you feel sunshine in your soul
+and love surround you and your family.
+Happy Sunday Blessings"
+                android:id="@+id/button4"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="I wish the world for you
+May you always shine bright
+and be blessed with love and care.
+Happy Anniversary Dear"
+                android:id="@+id/button5"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="You came into my life out of the blue
+But I’m glad you did because there’s
+on one as loving and kind as you.
+I Wish a very Happy Birthday to You."
+                android:id="@+id/button6"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Luck is Urs, Greetings are
+Mine, U Get Every Success
+and Let Ur Future Be Alwayz
+Shine.."
+                android:id="@+id/button7"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Soft Speech clean heart,
+peaceful eyes, strengthful hands,
+focussed mind and determined decision with God’s Love.
+Alway Makes you winner."
+                android:id="@+id/button8"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Holding on to anger is like grasping a
+hot coal with the intent of throwing it
+at someone else; you are the one who gets burned."
+                android:id="@+id/button9"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="May the sun shine, all day long
+everything go right, and nothing wrong
+may those u love bring love back to u
+and
+may all the wishes u wish come true"
+                android:id="@+id/button10"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

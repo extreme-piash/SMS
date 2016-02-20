@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.piash.sms" >
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name=".AniversarySMS"
+            android:label="@string/title_activity_aniversary_sms" >
+        </activity>
+        <activity
+            android:name=".AttitudeSMS"
+            android:label="@string/title_activity_attitude_sms" >
+        </activity>
+        <activity
+            android:name=".BestWishes"
+            android:label="@string/title_activity_best_wishes" >
+        </activity>
+        <activity
+            android:name=".BirthdaySMS"
+            android:label="@string/title_activity_birthday_sms" >
+        </activity>
+        <activity
+            android:name=".BrokenHertSMs"
+            android:label="@string/title_activity_broken_hert_sms" >
+        </activity>
+        <activity
+            android:name=".ChrismasSMS"
+            android:label="@string/title_activity_chrismas_sms" >
+        </activity>
+        <activity
+            android:name=".KissSMS"
+            android:label="@string/title_activity_kiss_sms" >
+        </activity>
+        <activity
+            android:name=".FlirtSMS"
+            android:label="@string/title_activity_flirt_sms" >
+        </activity>
+        <activity
+            android:name=".BreakupSMS"
+            android:label="@string/title_activity_breakup_sms" >
+        </activity>
+        <activity
+            android:name=".CoolSMS"
+            android:label="@string/title_activity_cool_sms" >
+        </activity>
+        <activity
+            android:name=".CuteSMS"
+            android:label="@string/title_activity_cute_sms" >
+        </activity>
+        <activity
+            android:name=".EidMubarak"
+            android:label="@string/title_activity_eid_mubarak" >
+        </activity>
+        <activity
+            android:name=".FunnySMS"
+            android:label="@string/title_activity_funny_sms" >
+        </activity>
+    </application>
+
+</manifest>

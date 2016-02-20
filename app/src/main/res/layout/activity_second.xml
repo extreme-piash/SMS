@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#8258FA"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.piash.sms.SecondActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbarStyle="outsideInset"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="If you”re angry at a loved one, Hug that person. And mean it. You may not want to hug- which is all the more reason to do so. It”s hard to stay angry when someone shows they love you, and that”s precisely what happens when we hug each other."
+                android:id="@+id/button1"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="A person who has a lot of anger inside, Definitely loves people more than anyone else….. because if read colour indicates anger, then it indicates love too!!"
+                android:id="@+id/button2"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="If you would cure anger, Do not feed it. Say to yourself: ‘I used to be angry every day; Then every other day; Now only every third or fourth day. ‘When you reach thirty days offer a sacrifice of thanksgiving to the gods."
+                android:id="@+id/button3"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Anger doesn’t solve anything. It builds nothing, But it can destroy everything."
+                android:id="@+id/button4"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Anger is the only feeling that makes ur mouth work faster than ur mind….. Don’t be in missunderstanding! luv ur luv so that u woun’t loose ur luv ……….."
+                android:id="@+id/button5"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="When someone stops getting angry on u,
+Its clear that u hav lost ur importance
+4m their Life..
+Anger is sumthing more than Love.."
+                android:id="@+id/button6"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="If you would cure anger,
+Do not feed it.
+Say to yourself:
+‘I used to be angry every day;
+Then every other day;
+Now only every third or fourth day.
+‘When you reach thirty days offer a sacrifice of
+thanksgiving to the gods."
+                android:id="@+id/button7"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="I have to be honest with myself.
+I think I am going to get booed badly.
+I am very well aware that some fans are very angry."
+                android:id="@+id/button8"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Holding on to anger is like grasping a
+hot coal with the intent of throwing it
+at someone else; you are the one who gets burned."
+                android:id="@+id/button9"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="In certain trying circumstances,
+Urgent circumstances,
+Desperate circumstances,
+profanity furnishes a relief denied even to prayer."
+                android:id="@+id/button10"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+</RelativeLayout>

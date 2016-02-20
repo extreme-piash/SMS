@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#8258FA"
+    tools:context="com.example.piash.sms.BreakupSMS">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbarStyle="outsideInset"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="I never hate you for not loving me anymore.
+But I hate myself for still loving you."
+                android:id="@+id/button1"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Relationship are like Glass,
+Sometimes it’s better to Leave them
+broken than try to Hurt yourself
+putting it back TOGETHER."
+                android:id="@+id/button2"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Real tears are not those
+That fall from eyes
+And cover the face,
+But those that fall from the
+heart and cover the soul"
+                android:id="@+id/button3"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="The worst feeling in the world is
+when
+you can’t love anyone else
+because your heart still belongs to
+the one who broke it..!!"
+                android:id="@+id/button4"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Wish you a very happy birthday
+May life lead you 2 great happiness
+success and hope dat
+all your wishes comes true!
+enjoy your day."
+                android:id="@+id/button5"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="When someone stops getting angry on u,
+Its clear that u hav lost ur importance
+4m their Life..
+Anger is sumthing more than Love…"
+                android:id="@+id/button6"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Today, i had a dream that you were with me. I kissed you, you kissed me! I hugged you, you hugged me. I loved you, you loved me. To badd it was all just a dream "
+                android:id="@+id/button7"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Love is a medicine for any kind of wound, but there is no medicine found in the world for a wound given by love."
+                android:id="@+id/button8"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="THINK ABOUT IT! Why do Girls Eat Chocolates after a Break Up? The Sweetness of chocolates makes them forget the Bitterness of the break up. Why do Guys drink after Break Up? The bitterness of Alcohol makes them forget the Sweetness of the girl. Is that so."
+                android:id="@+id/button9"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:text="Love is like a worm… It seems like a heaven when it moves in ur body… Finally u will find that it sucking ur blood and soon ur going to die… No other way."
+                android:id="@+id/button10"
+                android:background="#E6971B"
+                android:textAllCaps="false"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

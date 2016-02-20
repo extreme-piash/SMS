@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#8258FA"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:scrollbarStyle="outsideInset"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Angry SMS"
+            android:background="#E6971B"
+            android:id="@+id/button_angrysms"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            />
+
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            android:background="#E6971B"
+        android:text="Anniversary SMS"
+        android:id="@+id/button_aniversery"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ee"
+            android:layout_marginBottom="5dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Attitude SMS"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_attitudesms"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Best wishes SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_bestwishes"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Birthday SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_birthday"
+            android:layout_above="@+id/button_brokenHeart"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"/>
+
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+        android:text="Broken Heart SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+        android:id="@+id/button_brokenHeart"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+            android:textAllCaps="false" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:text="Chrismas SMS"
+            android:id="@+id/button_chrismas"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Kiss SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_kissSMS"
+            android:layout_alignTop="@+id/button_chrismas"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Flirt SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_flirtSMS"
+            android:layout_below="@+id/button_flirtSMS"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Breakup SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_breakUp"
+            android:layout_below="@+id/button_computersms"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Cool SMS"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_cool"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:text="Cute Sms"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_cute"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Eid Mubarak SMS"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_EidMubarak"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Funny SMS"
+            android:background="#E6971B"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ee"
+            android:id="@+id/button_funny"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="false"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</RelativeLayout>
